@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "biome format --write ./",
+    "lint": "biome lint --write ./",
+    "check": "biome check --write ./"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.14",
+    "vue": "2.7.16"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@vitejs/plugin-vue2": "^2.3.3",
+    "vite": "^6.0.5"
+  }
+}
