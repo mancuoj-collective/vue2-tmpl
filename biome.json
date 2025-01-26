@@ -15,7 +15,7 @@
   },
   "javascript": {
     "formatter": {
-      "jsxQuoteStyle": "single",
+      "quoteStyle": "single",
       "semicolons": "asNeeded"
     }
   },
